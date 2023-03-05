@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stack>
 #include <queue>
+
 using namespace std;
 
 
@@ -90,7 +91,7 @@ struct cvor* pronadji(struct cvor* root, int key)
 {
 	struct cvor* temp1 = root;
 	
-	while (temp1 != NULL)
+	while ( temp1 != NULL )
 	{
 		
 		if (temp1->val == key)
